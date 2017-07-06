@@ -12,6 +12,10 @@ Clone this repo manually with git or use `brunch new gh:deepakpster/pd-chaplin`
 * Run:
     * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
     * `brunch build --production` — builds minified project for production
+* Instruction:
+		Open console log to see the data load.
+		* `http://localhost:3333/collection` - Normal implementation of collection view where the view is blocked till the last iteration of data.
+		* `http://localhost:3333/performance` - Optimised implementation of collection view where the view is unblocked and rows are added to the collection view one at a time.
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
