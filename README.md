@@ -1,13 +1,7 @@
-# Brunch with Chaplin
-![bwc-logo](http://brunch.io/images/svg/brunch.svg)
-
-This is HTML5 application, built with
-[Brunch](http://brunch.io) and [Chaplin](http://chaplinjs.org).
-
-* [CoffeeScript version](https://github.com/paulmillr/brunch-with-chaplin) | [JavaScript version](https://github.com/paulmillr/brunch-with-chaplin-js)
+# Optimising initial load speed in Chaplin collection view.
 
 ## Installation
-Clone this repo manually with git or use `brunch new gh:paulmillr/brunch-with-chaplin`
+Clone this repo manually with git or use `brunch new gh:deepakpster/pd-chaplin`
 
 ## Getting started
 * Install (if you don't have them):
@@ -21,50 +15,13 @@ Clone this repo manually with git or use `brunch new gh:paulmillr/brunch-with-ch
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Chaplin site](http://chaplinjs.org)
-
----------------
-
-# For newcomers
-
-Brunch with Chaplin is a skeleton (boilerplate) for [Brunch](http://brunch.io)
-based on [Chaplin](http://chaplinjs.org) architecture. Requires Brunch 1.7+.
-
-Example application built with the skeleton:
-[Ost.io](https://github.com/paulmillr/ostio).
-
-This branch does not contain ready-to-use test environment.
-If you want take a look how tests can be used, see `with-tests` git branch.
-
-## Difference from Chaplin Boilerplate
-[Chaplin Boilerplate](https://github.com/chaplinjs/chaplin-boilerplate)
-is a official boilerplate all for chaplin. This skeleton is almost the same,
-except a few changes:
-
-* Added Header.
-* CommonJS is used instead of AMD, because it's easier to use & debug.
-
-## Features
-* HTML5Boilerplate html & css are included.
-* CoffeeScript + Stylus + Handlebars as app languages
-(you can change this to anything you want)
-* Backbone as main MVC/MVP library, Chaplin as meta-framework.
-* Support of IE8 and up.
-* Cross-module communication using the Mediator and Publish/Subscribe patterns
-* Controllers for managing individual UI views
-* Rails-style routes which map URLs to controller actions
-* An application view as dispatcher and view manager
-* Extended model, view and collection classes to avoid repetition and
-enforce conventions
-* Strict memory management and object disposal
-* A collection with additional manipulation methods for smarter change events
-* A collection view for easy and intelligent list rendering
-
-## Authentication
-If you build an application with authentication, there are some useful abstractions for it out there: https://github.com/chaplinjs/chaplin-auth.
 
 ## License
 The MIT license.
+
+Copyright (c) 2017 Deepak Puttarangaswamy (deepakpster@gmail.com)
+
+Brunch with Chaplin MIT licese as it is:
 
 Copyright (c) 2012 Paul Miller (http://paulmillr.com/)
 
